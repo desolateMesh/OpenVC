@@ -86,7 +86,7 @@ pip install -r requirements.txt
 
 ### Setup
 
-⚠️ **Important**: Download the dlib predictor file from the [official source](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2) and place it into `week3/`.
+⚠️ **Important**: Download the dlib predictor file and place it into `week3/`.
 
 Then install dependencies:
 ```bash
