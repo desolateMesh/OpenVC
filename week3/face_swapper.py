@@ -113,10 +113,9 @@ def main():
         # It only runs if the imshow calls were successful.
         cv2.destroyAllWindows()
     except cv2.error:
-        print("-----------------------------------------------------------------")
         print("Could not open display windows (this is expected on a server/VM).")
         print("Your output file has been saved successfully.")
-        print("-----------------------------------------------------------------")
+        
 
 
 if __name__ == "__main__":
